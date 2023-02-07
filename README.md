@@ -1,2 +1,5 @@
 # TheOdinProject
-Repository for The Odin Project exercises
+
+Repository for The Odin Project exercises.
+
+Hello Odin!
