@@ -1,5 +1,5 @@
 # TheOdinProject
 
-Repository for The Odin Project exercises.
+Project showcase for The Odin Project.
 
 Hello Odin!
