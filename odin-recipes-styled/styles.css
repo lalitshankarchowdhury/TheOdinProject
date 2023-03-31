@@ -1,7 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 
 body {
-  font-family: "Inter", sans-serif;
+  background-color: #e4e3d3;
+  color: #332e3c;
+  font-family: "Source Sans Pro", sans-serif;
   max-width: 45em;
   margin: 0 auto;
   padding-top: 3em;
@@ -10,14 +13,18 @@ body {
   line-height: 1.25em;
 }
 
+h1,
+h2 {
+  font-family: "Libre Baskerville", serif;
+}
+
 h1 {
   text-align: center;
 }
 
 a {
   font-weight: bold;
-  color: rgb(0, 0, 255);
-  text-decoration: none;
+  color: #45062e;
 }
 
 img {
