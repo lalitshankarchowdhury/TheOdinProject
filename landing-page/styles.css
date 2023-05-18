@@ -13,14 +13,12 @@ body {
   padding: 1em 0em;
   display: flex;
   justify-content: center;
-  /* border: 1px solid rebeccapurple; */
 }
 
 .block {
   min-width: 55em;
   max-width: 55em;
   display: flex;
-  /* border: 1px solid black; */
 }
 
 .header .block {
@@ -51,7 +49,6 @@ a {
   align-items: center;
   padding: 4em 0em;
   gap: 1em;
-  /* border: 1px solid orangered; */
 }
 
 .hero .block {
@@ -77,15 +74,15 @@ a {
   font-size: 18px;
 }
 
-.button {
+.rounded-rectangle {
   border-radius: 10px;
   padding: 0.75em;
   background-color: #3882f6;
-  font-weight: 700;
-  color: #e5e7eb;
 }
 
-.button a {
+.rounded-rectangle a {
+  font-weight: 700;
+  color: #e5e7eb;
   font-size: 16px;
 }
 
@@ -98,7 +95,6 @@ a {
   display: flex;
   justify-content: center;
   background-color: #f9faf8;
-  /* border: 1px solid cyan; */
   padding: 4em 0em;
 }
 
@@ -150,7 +146,6 @@ a {
   background-color: #e5e7eb;
   display: flex;
   justify-content: center;
-  /* border: 1px solid salmon; */
 }
 
 .quote-text {
@@ -190,4 +185,33 @@ a {
 .footer .block {
   color: #e5e7eb;
   justify-content: center;
+}
+
+.action-main-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: #e5e7eb;
+}
+
+.action-secondary-text {
+  color: #e5e7eb;
+}
+
+.banner {
+  border-radius: 10px;
+  padding: 1em;
+  background-color: #3882f6;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16em;
+}
+
+.action .content {
+  gap: 0.5em;
+}
+
+.action .rounded-rectangle {
+  border: 2px solid #f9faf8;
 }
