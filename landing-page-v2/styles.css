@@ -36,12 +36,12 @@ a:hover {
   color: #e73c7e;
 }
 
-.complexity {
-  background-color: #23d5ab;
-}
-
 .practical {
   background-color: #ee7752;
+}
+
+.complexity {
+  background-color: #23d5ab;
 }
 
 .thick-thin {
