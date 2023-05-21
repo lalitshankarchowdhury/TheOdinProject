@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600;900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 body {
   font-family: Inter;
   margin: auto;
+  background-color: #f2f2f2;
+  color: #222222;
 }
 
 .section {
@@ -12,10 +13,27 @@ body {
   padding: 4em 0em;
 }
 
-.hero,
-.complexity {
-  background-color: #f2f2f2;
+.header {
+  padding: 2em 0em;
+}
+
+.header .block {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.link {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
   color: #222222;
+}
+
+a:hover {
+  color: #e73c7e;
 }
 
 .practical,
@@ -25,7 +43,7 @@ body {
 }
 
 .hero {
-  padding: 6em 0em;
+  padding: 4em 0em 6em;
 }
 
 .hero .text {
@@ -35,8 +53,8 @@ body {
 .block {
   display: flex;
   flex-direction: column;
-  min-width: 50em;
-  max-width: 50em;
+  min-width: 52.5em;
+  max-width: 52.5em;
 }
 
 .title {
@@ -89,25 +107,3 @@ body {
   padding: 2em 0em;
   text-align: center;
 }
-
-/* @keyframes elegant {
-  0% {
-    font-weight: 100;
-  }
-  25% {
-    font-weight: 300;
-  }
-  50% {
-    font-weight: 500;
-  }
-  75% {
-    font-weight: 700;
-  }
-  100% {
-    font-weight: 900;
-  }
-}
-
-.elegant {
-  animation: elegant 3s ease infinite;
-} */
