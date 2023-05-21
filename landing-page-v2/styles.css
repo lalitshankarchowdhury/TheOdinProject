@@ -37,6 +37,7 @@ a:hover {
 }
 
 .practical {
+  color: #f2f2f2;
   background-color: #ee7752;
 }
 
@@ -45,6 +46,11 @@ a:hover {
 }
 
 .thick-thin {
+  color: #f2f2f2;
+  background-color: #e73c7e;
+}
+
+.free {
   background-color: #23a6d5;
 }
 
@@ -70,7 +76,7 @@ a:hover {
 }
 
 .text {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 @keyframes gradient {
@@ -110,6 +116,7 @@ a:hover {
 }
 
 .footer {
+  font-size: 18px;
   padding: 2em 0em;
   text-align: center;
 }
