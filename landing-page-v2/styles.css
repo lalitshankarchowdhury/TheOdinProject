@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600;900&display=swap");
+
+body {
+  font-family: Inter;
+  margin: auto;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4em 0em;
+}
+
+.hero,
+.complexity {
+  background-color: #f2f2f2;
+  color: #222222;
+}
+
+.practical,
+.thick-thin {
+  color: #f2f2f2;
+  background-color: #222222;
+}
+
+.hero {
+  padding: 6em 0em;
+}
+
+.hero .text {
+  font-size: 28px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  min-width: 50em;
+  max-width: 50em;
+}
+
+.title {
+  font-size: 80px;
+  font-weight: 900;
+  margin-bottom: 0.5em;
+}
+
+.text {
+  font-size: 20px;
+}
+
+@keyframes animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.highlight {
+  background: linear-gradient(135deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animation 10s ease infinite;
+}
+
+.sub-title {
+  max-width: fit-content;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+.thick {
+  font-weight: 900;
+}
+
+.thin {
+  font-weight: 100;
+}
