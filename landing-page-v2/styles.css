@@ -49,7 +49,7 @@ body {
   font-size: 20px;
 }
 
-@keyframes animation {
+@keyframes gradient {
   0% {
     background-position: 0% 50%;
   }
@@ -67,7 +67,7 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: animation 10s ease infinite;
+  animation: gradient 7.5s ease-in-out infinite;
 }
 
 .sub-title {
@@ -84,3 +84,30 @@ body {
 .thin {
   font-weight: 100;
 }
+
+.footer {
+  padding: 2em 0em;
+  text-align: center;
+}
+
+/* @keyframes elegant {
+  0% {
+    font-weight: 100;
+  }
+  25% {
+    font-weight: 300;
+  }
+  50% {
+    font-weight: 500;
+  }
+  75% {
+    font-weight: 700;
+  }
+  100% {
+    font-weight: 900;
+  }
+}
+
+.elegant {
+  animation: elegant 3s ease infinite;
+} */
